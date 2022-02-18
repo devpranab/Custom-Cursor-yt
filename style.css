@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: black;
+    height: 100vh;
+}
+.logo{
+    color: #fff;
+}
+.menu ul{
+    list-style: none;
+   
+}
+.menu ul li{
+    display: inline-block;
+
+}
+.menu ul li a{
+    color: #fff;
+    display: block;
+    padding: 30px 30px;
+    text-decoration: none;
+}
+span{
+    color: red;
+}
+.content p{
+    color: #fff;
+}
+.content h1{
+    padding: 30px;
+}
+img{
+    width: 90%;
+    border-radius: 6px;
+}
+.cursor{
+    width: 35px;
+    height: 35px;
+    border: 2px solid #fff;
+    border-radius: 50%;
+    position: absolute;
+}
