@@ -5,6 +5,7 @@
 body{
     background: black;
     height: 100vh;
+    cursor: none;
 }
 .logo{
     color: #fff;
@@ -23,6 +24,11 @@ body{
     padding: 30px 30px;
     text-decoration: none;
 }
+.menu ul li a:hover{
+    color: black;
+    text-decoration: none;
+    cursor: none;
+}
 span{
     color: red;
 }
@@ -37,10 +43,17 @@ img{
     border-radius: 6px;
 }
 .cursor{
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
     border: 2px solid #fff;
     border-radius: 50%;
     position: absolute;
     transform: translate(-50%, -50%);
+    transition: .3s linear all;
+    transition-property: background-color, transform;
+    backdrop-filter: grayscale(1); /* black&white */
+}
+.growhover{
+    background-color: #fff;
+    transform: scale(2);
 }
